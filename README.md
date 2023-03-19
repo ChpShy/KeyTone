@@ -12,6 +12,7 @@ Play the piano while writing code 🤪
 
 - Show audio track
 - Put audio files on cdn
+- Performance
 
 ## Credits
 
