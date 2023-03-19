@@ -7,7 +7,7 @@ importers:
       '@antfu/eslint-config': ^0.25.2
       '@antfu/ni': ^0.17.2
       '@types/node': ^18.6.4
-      '@types/vscode': ^1.69.0
+      '@types/vscode': latest
       bumpp: ^8.2.1
       eslint: ^8.21.0
       esno: ^0.16.3
@@ -22,7 +22,7 @@ importers:
       '@antfu/eslint-config': 0.25.2_qugx7qdu5zevzvxaiqyxfiwquq
       '@antfu/ni': 0.17.2
       '@types/node': 18.6.4
-      '@types/vscode': 1.69.1
+      '@types/vscode': 1.76.0
       bumpp: 8.2.1
       eslint: 8.21.0
       esno: 0.16.3
@@ -494,8 +494,8 @@ packages:
     resolution: {integrity: sha512-PBjIUxZHOuj0R15/xuwJYjFi+KZdNFrehocChv4g5hu6aFroHue8m0lBP0POdK2nKzbw0cgV1mws8+V/JAcEkQ==}
     dev: true
 
-  /@types/vscode/1.69.1:
-    resolution: {integrity: sha512-YZ77g3u9S9Xw3dwAgRgNAwnKNS3nPlhSu3XKOIYQzCcItUrZovfJUlf/29wjON2VZvHGuYQnhKuJUP15ccpVIQ==}
+  /@types/vscode/1.76.0:
+    resolution: {integrity: sha512-CQcY3+Fe5hNewHnOEAVYj4dd1do/QHliXaknAEYSXx2KEHUzFibDZSKptCon+HPgK55xx20pR+PBJjf0MomnBA==}
     dev: true
 
   /@typescript-eslint/eslint-plugin/5.27.1_hna427qgodgvnyijeryyxjzjii:

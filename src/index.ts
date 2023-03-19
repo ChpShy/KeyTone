@@ -1,12 +1,7 @@
 // 导入所需的依赖
 import { spawn } from 'child_process'
-import vscode, { window } from 'vscode'
+import vscode from 'vscode'
 import { playSoundUrlByText } from './play'
-
-// import a48 from '../res/mp3/a48.mp3'
-
-// 音频文件路径
-// const audioPath = path.join(__dirname, '../res/mp3/a48.mp3')
 
 // 播放音频函数
 function playAudio(url: string) {
@@ -17,12 +12,6 @@ function playAudio(url: string) {
 }
 
 async function activate(context) {
-  // window.showInformationMessage(audioPath)
-  // 注册按键监听器
-  // const disposable = vscode.commands.registerCommand('extension.playPiano', () => {
-  //   playAudio()
-  // })
-
   // 监听键盘事件
   const keyboardListener = vscode.window.onDidChangeActiveTextEditor((event) => {
     if (event) {
@@ -32,8 +21,6 @@ async function activate(context) {
         const url = playSoundUrlByText(newText)
         if (url)
           playAudio(url)
-
-        window.showInformationMessage(newText)
       })
       context.subscriptions.push(disposable2)
     }
