@@ -1,4 +1,8 @@
-# KeyTone
+<p align="center">
+<img src="./res/icon.png" height="150">
+</p>
+
+# 🎹 KeyTone
 
 ## Introduce
 
@@ -7,6 +11,7 @@ Play the piano while writing code 🤪
 ## TODO
 
 - Show audio track
+- Put audio files on cdn
 
 ## Credits
 
