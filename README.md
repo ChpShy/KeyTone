@@ -6,13 +6,13 @@
 
 ## Introduce
 
-Play the piano while writing code 🤪
+(Only for Mac) Play the piano while writing code 🤪
 
 ## TODO
 
 - Show audio track
 - Put audio files on cdn
-- Performance
+- Performance(A lot of process will be generated if input too fast)
 
 ## Credits
 
