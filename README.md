@@ -6,7 +6,7 @@
 
 ## Introduce
 
-A VSCode plugin[KeyTone](https://marketplace.visualstudio.com/items?itemName=cyly.key-tone): (Only for Mac) Play the piano while writing code 🤪
+A VSCode plugin [KeyTone](https://marketplace.visualstudio.com/items?itemName=cyly.key-tone): (Only for Mac) Play the piano while writing code 🤪
 
 ## TODO
 
